@@ -1,0 +1,78 @@
+.page-box {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: #fff;
+  box-shadow: 4px 1px 10px 0px grey;
+
+  padding: 15px 0;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-right: 48px;
+}
+
+.page-box:last-child {
+  margin-bottom: 0;
+}
+
+.received_from {
+  color: green;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.sent_to {
+  color: red;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.sender-or-receiver {
+  font-weight: bolder;
+}
+
+.amount-figure {
+  margin-right: 30px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 8px;
+  /* left: 90%; */
+  right: 0px;
+}
+
+.sender-amount {
+  color: red;
+}
+.receiver-amount {
+  color: green;
+}
+.name-amount-group {
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  position: relative;
+  gap: 90px;
+}
+
+.data-transaction-group {
+  color: rgb(153, 153, 153);
+
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: space-between;
+}
+.transaction-name {
+  margin-left: 20px;
+}
+
+.date-format {
+  margin-right: 30px;
+}

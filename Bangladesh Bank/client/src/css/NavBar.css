@@ -1,0 +1,45 @@
+.nav-bar {
+  height: 5rem;
+
+  background-color: #5d5d5e57;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.nav-bar-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  gap: 10px;
+}
+.button {
+  background-color: #5a5a5a;
+
+  width: 8rem;
+  height: 1.5rem;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: white;
+}
+.logout {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #5a5a5a;
+  cursor: pointer;
+}
+
+.website-name {
+  font-size: 1.6rem;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: "Pangolin", cursive;
+}

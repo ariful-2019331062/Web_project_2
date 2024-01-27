@@ -1,0 +1,36 @@
+.status-box {
+  height: 2rem;
+}
+
+.main-status-div {
+  width: 50rem;
+  margin: 8rem auto;
+  display: flex;
+
+  background-color: rgb(210, 218, 218);
+  border-radius: 20px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.last-status-box {
+  color: #087f5b;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.bold {
+  display: inline;
+  font-weight: bolder;
+}
+
+.title-status {
+  position: absolute;
+  top: -60%;
+  left: 38%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #086b4c;
+}
